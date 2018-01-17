@@ -1,1 +1,8 @@
+#Maia Reynolds
+#1/17/18
+#tipCalculator.py - calculates tip
 
+meal=int(input("Price of Meal (in $): "))
+percent=int(input("Percent to Tip: "))
+tip=meal*(percent/100)
+print("You should tip ",tip,"dollars")
