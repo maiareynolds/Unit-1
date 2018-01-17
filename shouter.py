@@ -2,5 +2,5 @@
 #1/17/18
 #shouter.py - lower case to upper case
 
-s=input("Type Something: ")
+s=input("Enter Text: ")
 print(s.upper(s))
