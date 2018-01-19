@@ -4,5 +4,4 @@
 
 base=float(input("base= "))
 height=float(input("height= "))
-area=.5*base*height
-print("area= ",area)
+print("area= ",.5*base*height)
