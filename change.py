@@ -4,9 +4,6 @@
 
 cents=int(input("number of cents: "))
 print("Quarters: ",int(cents//25))
-First=int(cents%25)
-print("Dimes: ",First//10)
-Second=int(First%10)
-print("Nickels: ",Second//5)
-Third=int(Second%5)
-print("Pennies: ",Third)
+print("Dimes: ",int(cents%25)//10)
+print("Nickels: ",int((cents%25)%10)//5)
+print("Pennies: ",int(((cents%25)%10)%5))
