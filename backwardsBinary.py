@@ -1,6 +1,6 @@
 #Maia Reynolds
 #1/24/18
-#backwardsBinary - converts number to binary
+#backwardsBinary.py - converts number to binary
 
 number=int(input("Enter number <256: "))
 a=(number//128)*10**7
